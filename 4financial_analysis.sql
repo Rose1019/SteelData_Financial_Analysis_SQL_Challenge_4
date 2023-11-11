@@ -1,3 +1,5 @@
+/*Creating Tables and Rows*/
+
 create table customers(
 c_id int primary key,
 f_name varchar(50),
