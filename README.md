@@ -23,7 +23,7 @@ Sharing the link to [SteelData-SQL Challenge 4](https://www.steeldata.org.uk/sql
 
 ## Code
 
-/*1. What are the names of all the customers who live in New York?*/
+*1. What are the names of all the customers who live in New York?*
 
 ``` js
 select concat(f_name,l_name) as Customer_Name,city as City
@@ -41,7 +41,7 @@ Fetches the names of all the customers who live in New York
 ```
 -----------------------------------------------------------------------------------------------------
 
-/*2. What is the total number of accounts in the Accounts table?*/
+*2. What is the total number of accounts in the Accounts table?*
 
 ``` js
 select count(account_id) as Total_number_of_accounts
@@ -99,7 +99,7 @@ The total balance of all accounts associated with customers who live in Los Ange
 ```
 -----------------------------------------------------------------------------------------------------
 
-*5. Which branch has the highest average account balance?*/
+*5. Which branch has the highest average account balance?*
 
 ``` js
 
@@ -247,7 +247,7 @@ having sum(balance) = ( Select max(customer_total_balance)
 
 ```
                                  Output
-Retreives the customer anme has the highest total balance across all of their accounts
+Retreives the customer name has the highest total balance across all of their accounts
 
                               Concepts learned
 1.JOIN
