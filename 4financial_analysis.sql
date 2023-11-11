@@ -152,18 +152,8 @@ order by Current_Balance DESC
 limit 1;
 
 /*7. Which customer has made the most transactions in the Transactions table?*/
-/*USE RANK to get the same count as output*/
-select a.c_id,CONCAT(c.f_name,c.l_name) as Customer_Name,count(t.t_id) as T_count
-from transactions t 
-join accounts a 
-using(account_id)
-join customers c 
-using(c_id)
-group by a.c_id,CONCAT(c.f_name,c.l_name)
-order by T_count desc
-limit 1;
 
-/*CTE*/
+/*USE RANK to get the same count as output*/
 with cte1 AS (
 select a.c_id,CONCAT(c.f_name,c.l_name) as Customer_Name,count(t.t_id) as T_count
 from transactions t 
