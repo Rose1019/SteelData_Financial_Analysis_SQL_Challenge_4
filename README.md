@@ -4,7 +4,7 @@
 ### Introduction
 You are a Finance Analyst working for 'The Big Bank'
 You have been tasked with finding out about your customers and their banking behaviour. 
-Examine the accounts they hold and the type of transactions they make to develop greater insight into your customers.
+Examine the accounts they hold and the type of transactions they make to develop greater insight into your customers. 
 
 Sharing the link to [SteelData-SQL Challenge 4](https://www.steeldata.org.uk/sql4.html)
 
